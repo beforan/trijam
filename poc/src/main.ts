@@ -1,8 +1,8 @@
 import "./style.css";
+import Phaser from "phaser";
 
-const app = document.querySelector<HTMLDivElement>("#app")!;
-
-app.innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`;
+new Phaser.Game({
+  type: Phaser.AUTO,
+  width: 800,
+  height: 600,
+});
