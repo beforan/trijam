@@ -1,0 +1,16 @@
+{
+  "name": "trijam",
+  "private": true,
+  "description": "One stop shop for all my trijam submissions",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beforan/trijam.git"
+  },
+  "author": "Jon Couldridge <jon@jon.gg>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beforan/trijam/issues"
+  },
+  "homepage": "https://github.com/beforan/trijam#readme"
+}
