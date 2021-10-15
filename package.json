@@ -12,5 +12,9 @@
   "bugs": {
     "url": "https://github.com/beforan/trijam/issues"
   },
-  "homepage": "https://github.com/beforan/trijam#readme"
+  "homepage": "https://github.com/beforan/trijam#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vite": "^2.6.4"
+  }
 }
