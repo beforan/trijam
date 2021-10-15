@@ -42,11 +42,24 @@ When using pnpm:
 ```jsonc
 // tsconfig.json
 {
-  //...
-  "baseUrl": ".",
-  "paths": {
-    "~/*": ["src/*"]
-    // Any other useful absolute import paths
+  // ...
+  "compilerOptions": {
+    //...
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+      // Any other useful absolute import paths
+    }
   }
 }
+```
+
+```ts
+// vite.config.ts
+import { defineConfig } from "vite";
+import tsconfigPaths from "vite-tsconfig-paths";
+
+export default defineConfig({
+  plugins: [tsconfigPaths()],
+});
 ```

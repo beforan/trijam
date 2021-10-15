@@ -5,5 +5,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "vite-tsconfig-paths": "^3.3.17"
   }
 }
