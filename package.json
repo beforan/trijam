@@ -2,7 +2,6 @@
   "name": "trijam",
   "private": true,
   "description": "One stop shop for all my trijam submissions",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beforan/trijam.git"
@@ -14,6 +13,7 @@
   },
   "homepage": "https://github.com/beforan/trijam#readme",
   "devDependencies": {
+    "prettier": "^2.4.1",
     "typescript": "^4.4.4",
     "vite": "^2.6.4"
   }
