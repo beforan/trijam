@@ -2,6 +2,14 @@ lockfileVersion: 5.3
 
 importers:
 
+  '141':
+    specifiers:
+      phaser: ^3.55.2
+      vite-tsconfig-paths: ^3.3.17
+    dependencies:
+      phaser: 3.55.2
+      vite-tsconfig-paths: 3.3.17_vite@2.6.7
+
   .:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.0.0
@@ -22,7 +30,7 @@ importers:
       typescript: 4.4.4
       vite: 2.6.7
 
-  poc:
+  template:
     specifiers:
       phaser: ^3.55.2
       vite-tsconfig-paths: ^3.3.17
