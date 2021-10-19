@@ -21,9 +21,26 @@ class Game extends Scene {
       frameWidth: 32,
       frameHeight: 32,
     });
+
+    this.load.image(AssetKeys.FloorTiles, AssetPaths.FloorTiles);
   }
 
   create() {
+    const map = this.make.tilemap({
+      data: [
+        [0, 0, 0],
+        [1, 1, 1],
+        [2, 2, 2],
+        [3, 3, 3],
+        [4, 4, 4],
+        [5, 5, 5],
+      ],
+      width: 32,
+      height: 32,
+    });
+    const floorTiles = map.addTilesetImage(AssetKeys.FloorTiles);
+    map.createLayer(0, floorTiles, 100, 100);
+
     this.player = this.physics.add.sprite(10, 10, AssetKeys.Player);
 
     // this.anims.create({
